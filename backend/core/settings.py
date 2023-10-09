@@ -140,6 +140,7 @@ CHANNEL_LAYERS = {
     },
 }
 
+#laksjdlkf
 CELERYBEAT_SCHEDULE = {
     'prune-presence': {
         'task': 'channels_presence.tasks.prune_presences',
